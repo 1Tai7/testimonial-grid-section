@@ -1,0 +1,161 @@
+* {
+  font-family: "roboto", sans-serif;
+}
+body {
+  background-color: #edf2f8;
+  margin: 0;
+}
+.container {
+  display: flex;
+  margin-top: 27px;
+  margin-left: 145px;
+}
+.B {
+  justify-content: center;
+  align-items: center;
+}
+.hdan,
+.hjon,
+.hjea,
+.hpat,
+.hkira {
+  display: flex;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.bOne {
+  display: flex;
+}
+.bTwo {
+  display: flex;
+}
+p {
+  margin: 0%;
+}
+.pOne,
+.pTwo,
+.pThree,
+.pFour,
+.pFive {
+  padding: 0 35px 35px 35px;
+}
+.pDanT,
+.pJonT,
+.pJeaT,
+.pPatT,
+.pKiraT {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+span {
+  font-weight: lighter;
+  font-size: 11px;
+}
+h4 {
+  margin: 0 0 15px 0;
+}
+.one {
+  background-color: #733fc8;
+  width: 517px;
+  height: 265px;
+  color: aliceblue;
+  margin-right: 18px;
+  border-radius: 10px;
+}
+.two {
+  background-color: #49556b;
+  width: 265px;
+  height: 265px;
+  color: aliceblue;
+  margin-right: 18px;
+  border-radius: 10px;
+}
+.three {
+  background-color: #fff;
+  width: 265px;
+  height: 265px;
+  margin: 18px 18px 0 0;
+  color: rgb(100, 100, 100);
+  border-radius: 10px;
+}
+.four {
+  background-color: #18222e;
+  width: 517px;
+  height: 265px;
+  margin: 18px 18px 0 0;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.five {
+  background-color: #fff;
+  width: 265px;
+  height: 548px;
+  border-radius: 10px;
+  color: rgb(100, 100, 100);
+}
+img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  margin: 28px 17px 22px 35px;
+  -webkit-box-shadow: 0px 0px 0px 3px #a775f2;
+  box-shadow: 0px 0px 0px 3px #a775f2;
+}
+.attribution {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: 0%;
+  margin: 15px 0 0 580px;
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 25px 0 0 22px;
+    flex-direction: column;
+  }
+  .one {
+    width: 330px;
+    height: 450px;
+  }
+  .two {
+    width: 330px;
+    height: 255px;
+    margin-top: 18px;
+  }
+  .three {
+    width: 330px;
+    height: 205px;
+  }
+  .four {
+    width: 330px;
+    height: 340px;
+  }
+  .five {
+    width: 330px;
+    height: 415px;
+    margin-top: 18px;
+  }
+  .bThree {
+    display: flex;
+    align-items: flex-end;
+  }
+  .pOne,
+  .pTwo,
+  .pThree,
+  .pFour,
+  .pFive {
+    padding: 0 25px 25px 35px;
+  }
+  .bOne,
+  .bTwo {
+    display: flex;
+    flex-direction: column;
+  }
+  .attribution {
+    margin: 15px 0 15px 72px;
+  }
+}
